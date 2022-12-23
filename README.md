@@ -1,8 +1,9 @@
 # HBK-Airways
-An airline reservation website project made up of:
+An airline reservation website developed using:
 - HTML
-- PHP
+- CSS
 - JavasScript
-- JQuery
+- jQuery
+- PHP
 - AJAX
 - MongoDB
