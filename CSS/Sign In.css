@@ -1,0 +1,69 @@
+.container {
+    background-color: white;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin-top: 12%;
+    margin-left: 25%;
+    font-size: large;
+}
+
+.form-check-label {
+    font-weight: 100;
+}
+
+h1 {
+    text-align: center;
+}
+
+#btnSubmit {
+    float: right;
+}
+
+form label {
+    font-weight: bold;
+    font-family: "Helvetica";
+}
+
+.form-control {
+    font-family: "Helvetica";
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background-color: #0492C2;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assets/Maldives.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+    background-position: center center;
+    backface-visibility: hidden;
+    animation: slideBg 45s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideBg {
+    0% {
+        background-image: url("../Assets/Maldives.jpg"), url("../Assets/Paris.jpg");
+    }
+    25% {
+        background-image: url("../Assets/Paris.jpg"), url("../Assets/NewYork.jpg");
+    }
+    50% {
+        background-image: url("../Assets/NewYork.jpg"), url("../Assets/Village.jpg");
+    }
+    75% {
+        background-image: url("../Assets/Village.jpg"), url("../Assets/Maldives.jpg");
+    }
+    100% {
+        background-image: url("../Assets/Maldives.jpg");
+    }
+}

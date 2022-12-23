@@ -1,0 +1,29 @@
+#social-media {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    font-size: 30px;
+    color: white;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    color: white;
+    font-family: Book Antiqua;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+    background-color: #0b0b45;
+    margin-top: 12%;
+    padding-bottom: 0.1%;
+}
+
+hr {
+    width: 20%;
+    margin-top: 0.8%;
+    margin-left: auto;
+    margin-right: auto;
+}

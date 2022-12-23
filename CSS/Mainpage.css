@@ -1,0 +1,136 @@
+header {
+    position: relative;
+    height: 90vh;
+    background-image: url(../Assets/Travelers.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideBg 50s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideBg {
+    0% {
+        background-image: url("../Assets/Travelers.jpg"), url("../Assets/Lounge.jpg");
+    }
+    25% {
+        background-image: url("../Assets/Lounge.jpg"), url("../Assets/Runway.jpg");
+    }
+    50% {
+        background-image: url("../Assets/Runway.jpg"), url("../Assets/Airport.jpg");
+    }
+    75% {
+        background-image: url("../Assets/Airport.jpg"), url("../Assets/Travelers.jpg");
+    }
+    100% {
+        background-image: url("../Assets/Travelers.jpg");
+    }
+}
+
+.line1 {
+    width: 150px;
+    height: 4px;
+    margin: 10px 150px;
+    background-color: #0492C2;
+    border-radius: 5px;
+}
+
+.line2 {
+    width: 150px;
+    height: 4px;
+    margin: 10px 44%;
+    background-color: #0492C2;
+    border-radius: 5px;
+}
+
+.content-header {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 150px;
+}
+
+.content-header h1 {
+    font-size: 7min;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI';
+    text-shadow: 2px 2px black;
+}
+
+.content-header h2 {
+    font-size: 4vmin;
+    font-family: 'Segoe UI';
+    text-shadow: 2px 2px black;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.destinations .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    margin: 20px auto;
+    color: #0b0b45;
+}
+
+.p1 {
+    padding: 0px 40px;
+    font-family: 'Segoe UI';
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row .col img {
+    width: 320px;
+    height: 241px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.col a:hover {
+    background-color: blue;
+}
+
+header a:hover {
+    background-color: blue;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #0492C2;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}

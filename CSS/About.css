@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../Assets/airplane_sky_flight_clouds_height_118356_1920x1080.jpg) repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    font-size: 300%;
+    font-weight:bolder;
+    font-family: Georgia;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: overline;
+}
+
+.desc {
+    color: white;
+    font-size: 130%;
+    font-family: Book Antiqua;
+    font-style: italic;
+    text-align: center;
+}
+
+.div1 {
+    background-color: white;
+    border: 0.5px solid black;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 50vh;
+    box-shadow: 5px 5px 10px;
+    font-family: Cambria;
+    border: 1px solid black;
+}
+
+.div2 {
+    background-color: white;
+    border: 0.5px solid black;
+    width: 20%;
+    margin-left: 40%;
+    height: 50vh;
+    box-shadow: 5px 5px 10px;
+    margin-top: -25.5%;
+    font-family: Cambria;
+    border: 1px solid black;
+}
+
+.div3 {
+    background-color: white;
+    border: 0.5px solid black;
+    width: 20%;
+    margin-left: 70%;
+    height: 50vh;
+    box-shadow: 5px 5px 10px;
+    margin-top: -25.5%;
+    font-family: Cambria;
+    border: 1px solid black;
+}
+
+.div4 {
+    display: none;
+    position: absolute;
+    background-color: dodgerblue;
+    border: 0.5px solid black;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: -12.7%;
+    height: 25vh;
+    box-shadow: 5px 5px 10px;
+    font-family: Arial;
+    border: 1px solid black;
+}
+
+.div5 {
+    display: none;
+    position: absolute;
+    background-color: dodgerblue;
+    border: 0.5px solid black;
+    width: 20%;
+    margin-left: 40%;
+    height: 25vh;
+    box-shadow: 5px 5px 10px;
+    margin-top: -12.7%;
+    font-family: Arial;
+    border: 1px solid black;
+}
+
+.div6 {
+    display: none;
+    position: absolute;
+    background-color: dodgerblue;
+    border: 0.5px solid black;
+    width: 20%;
+    margin-left: 70%;
+    height: 25vh;
+    box-shadow: 5px 5px 10px;
+    margin-top: -12.8%;
+    font-family: Arial;
+    border: 1px solid black;
+}
+
+.header2 {
+    font-family: Georgia;
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+    border: 0.5px solid white;
+    width: 15%;
+    padding: 5px;
+}
+
+li {
+    color: white;
+    font-family: Arial;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+.li1 {
+    color: white;
+    font-family: Arial;
+    padding-top: 5%;
+    font-weight: bold;  
+}

@@ -1,0 +1,142 @@
+body {
+    background-image: url("../Assets/airplane2.jpg");
+    font-family: "Helvetica";
+    background-size: auto;
+    background-position: center;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#container {
+    box-shadow: 0.4px 0.4px 0.4px 0.4px grey;
+    background-color: white;
+    border: 0.5px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#flight {
+    background-color: rgb(247, 244, 244);
+    padding-left: 1px;
+    border: 0.5px solid black;
+}
+
+#left_side {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#left_side h2 {
+    text-decoration: underline;
+}
+
+#left_side p {
+    font-size: 17px;
+}
+
+#middle_side {
+    padding-top: 10px;
+    margin-left: 40px;
+    border-left: 0.4px solid black;
+    padding-left: 30px;
+}
+
+#middle_side select {
+    width: 95%;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#option {
+    background-color: #0492C2;
+    margin-right: 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+select {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    display: block;
+    height: 40px;
+    font-size: 16px;
+}
+
+#editInfo {
+    background-color: skyblue;
+    border: 0.4px solid black;
+    margin-right: 10px;
+    padding: 3px;
+    width: 100px;
+    font-weight: bold;
+    float: right;
+}
+
+#editInfo:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+#cancelBtn {
+    background-color: skyblue;
+    border: 0.4px solid black;
+    margin-right: 10px;
+    padding: 3px;
+    width: 100px;
+    font-weight: bold;
+    float: right;
+}
+
+#bookBtn {
+    background-color: skyblue;
+    border: 0.4px solid black;
+    margin-right: 10px;
+    padding: 3px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#cancelBtn:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+#bookBtn:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+@media (max-width: 768px) {
+    #container {
+        grid-template-columns: 1fr;
+    }
+    select {
+        margin-left: 0;
+        width: 90%;
+    }
+    #middle_side {
+        border: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #right_side {
+        border: 0;
+    }
+}

@@ -1,0 +1,16 @@
+#txt_field {
+    margin: 10px;
+}
+
+#container {
+    margin: auto 0;
+}
+
+label {
+    font-size: 17px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}

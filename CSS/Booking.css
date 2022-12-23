@@ -1,0 +1,151 @@
+body {
+    background-image: url("../Assets/airplane.jpg");
+    background-size: auto;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#container {
+    box-shadow: 0.4px 0.4px 0.4px 0.4px grey;
+    opacity: 0.9;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.passengers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.reg_details {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.reg_details input, select, option {
+    font-size: medium;
+    border-width: 0.4px;
+    width: 90%;
+    height: 50px;
+    cursor: pointer;
+}
+
+select, option {
+    width: 90.8%;
+}
+
+input[type=date] {
+    width: 90.6%;
+}
+
+#ride_class {
+    margin-top: 30px;
+    font-size: medium;
+    border-width: 0.4px;
+    width: 66%;
+    height: 46px;
+}
+
+.pass_type {
+    height: 190px;
+    background-color: white;
+}
+
+.pass_type h1 {
+    color: rgb(190, 185, 185);
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.pass_type input {
+    width: 50px;
+    border-width: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.pass_type span {
+    font-size: 30px;
+    margin-left: 3px;
+}
+
+.pass_type button {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 50px;
+    border-width: 0.2px;
+    background-color: rgb(243, 243, 243);
+}
+
+.pass_type button:hover {
+    cursor: pointer;
+    background-color: rgb(205, 205, 205);
+}
+
+.pass_type .minus {
+    margin-left: 10px;
+    border: 0;
+}
+
+.pass_type .plus {
+    margin-left: 73px;
+    border: 0;
+}
+
+#search {
+    border-width: 0;
+    background-color: #0492C2;
+    color: white;
+    padding: 14.7px;
+    float: right;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 10px;
+    transition: 0.25s;
+}
+
+#search:hover {
+    cursor: pointer;
+    background-color: rgb(178, 176, 176);
+    transition: 0.25s;
+}
+
+@media (max-width: 768px) {
+    #container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .reg_details {
+        margin-left: 0;
+    }
+
+    .left_side input, select {
+        width: 100%;
+    }
+
+    .passengers {
+        grid-column-gap: 0px;
+    }
+
+    .pass_type button {
+        width: 30px;
+    }
+
+    .pass_type .plus {
+        margin-left: 30px;
+    }
+}

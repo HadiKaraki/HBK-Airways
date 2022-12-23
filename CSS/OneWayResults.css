@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    font-family: "Helvetica";
+    background-size: auto;
+    background-position: center;
+    margin: 0;
+}
+
+#flights {
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.flight {
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 1px 1px 1px 1px #c7c6c6;
+    margin-bottom: 20px;
+}
+
+.flight h1 {
+    color: #0492C2;
+    text-decoration: underline;
+}
+
+#chooseBtn {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #0492C2;
+    border: 0px;
+    float: right;
+    margin-right: 10px;
+    color: white;
+}
+
+.flight #chooseBtn:hover {
+    background-color: lightgray;
+}
+
+#go_back {
+    border: 0px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .flight {
+        grid-template-columns: 1fr;
+    }
+    #go {
+        padding-bottom: 10px;
+    }
+    #return {
+        padding: 0;
+        border-left: 0;
+        border-top: 0.6px solid black;
+        padding-top: 10px;
+    }
+    .flight #chooseBtn {
+        margin: 0;
+    }
+    #go_back {
+        float: right;
+    }
+}
