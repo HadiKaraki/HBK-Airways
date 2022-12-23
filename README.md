@@ -5,5 +5,5 @@ An airline reservation website developed using:
 - JavasScript
 - jQuery
 - PHP
-- AJAX
+- Ajax
 - MongoDB
