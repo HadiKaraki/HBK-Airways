@@ -2,7 +2,7 @@
 An airline reservation website developed using:
 - HTML
 - CSS
-- JavasScript
+- JavaScript
 - jQuery
 - PHP
 - Ajax
