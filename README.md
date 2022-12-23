@@ -1,4 +1,4 @@
-# HBK-Airways
+# HBK Airways
 An airline reservation website developed using:
 - HTML
 - CSS
